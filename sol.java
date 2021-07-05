@@ -10,10 +10,10 @@ public class Main {
 		    long sum = 0;
 		    for (int i = 0; i < n; i++) {
 		        int a = in.nextInt();
-            // calculate the sum of all the elements
+            		// calculate the sum of all the elements
 		        sum += a;
 		    }
-        // check if the sum of 'sum' and 'm' is divisible by 'n'
+        	    // check if the sum of 'sum' and 'm' is divisible by 'n'
 		    System.out.println((sum + m) % n == 0 ? "Yes" : "No");
 		}
 	}
